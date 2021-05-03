@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+input,
+button {
+  display: inline-block;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#number {
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+  font-size: 30px;
+}
+
+.counter {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 50px;
+  border: none;
+  background-color: #ddd;
+  margin: 20px;
+}
+
+button[id="reset"] {
+  padding: 5px 25px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
